@@ -15,17 +15,19 @@ nav {
   align-items: center;
   padding: 30px 80px;
 }
+
 .nav-logo {
   display: flex;
   align-items: center;
 }
+
 .nav-logo a {
   display: flex;
   align-items: center;
-  text-decoration: none;
 }
+
 .nav-logo-image {
-  height: 58px;
+  height: 56px;
   width: auto;
   display: block;
 }
