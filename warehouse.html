@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Warehouse Mode — Simulacra Labs</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warehouse Mode | Simulacra</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-  <nav>
-    <div class="nav-logo">SIMULACRA</div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="warehouse.html">Warehouse Mode</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
 
-  <main class="page">
+<nav class="navbar">
+  <div class="logo-text">SIMULACRA</div>
+
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="warehouse.html">Warehouse Mode</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+<main class="page-content">
+
+  <section class="hero-section">
+
     <h1>Warehouse Mode</h1>
 
-    <p class="hero-text">
+    <p class="main-text">
       A simulation environment for evaluating robot coordination before deployment.
     </p>
 
@@ -28,27 +32,62 @@
       Compare free routing, balanced routing, and strict routing across the same warehouse layout.
     </p>
 
-    <div class="demo-card">
-      <h2>Live Prototype</h2>
-      <p>
-        Explore the current Streamlit demo and test coordination policies in real time.
-      </p>
+  </section>
 
-      <a class="button primary" href="https://simulacra-warehouse.streamlit.app" target="_blank">
-        Open Live Demo
-      </a>
+  <section class="demo-card">
+
+    <h2>Live Prototype</h2>
+
+    <p>
+      Explore the current Streamlit demo and test coordination policies in real time.
+    </p>
+
+    <a href="https://YOUR-STREAMLIT-LINK.streamlit.app" target="_blank" class="primary-button">
+      Open Live Demo
+    </a>
+
+  </section>
+
+  <section>
+
+    <h2>What it measures</h2>
+
+    <div class="metric-grid">
+      <div>Movement Cost</div>
+      <div>Congestion Delay</div>
+      <div>Conflict Events</div>
+      <div>Tasks Completed</div>
     </div>
 
-    <section class="metrics">
-      <h2>What it measures</h2>
+  </section>
 
-      <div class="metric-grid">
-        <div>Movement Cost</div>
-        <div>Congestion Delay</div>
-        <div>Conflict Events</div>
-        <div>Tasks Completed</div>
-      </div>
-    </section>
-  </main>
+  <section class="future-section">
+
+    <h2>What's Next</h2>
+
+    <div class="future-card">
+      <span>Warehouse Mode</span>
+      <span>✅ Live</span>
+    </div>
+
+    <div class="future-card">
+      <span>Digital Warehouse Twins</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+    <div class="future-card">
+      <span>Cleaning Mode</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+    <div class="future-card">
+      <span>Autonomous Fleets</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+  </section>
+
+</main>
+
 </body>
 </html>
