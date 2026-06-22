@@ -1,78 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Warehouse Mode — Simulacra Labs</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Warehouse Mode | Simulacra Labs</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-  <nav>
-    <div class="nav-logo">SIMULACRA</div>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="warehouse.html">Warehouse Mode</a>
-      <a href="contact.html">Contact</a>
-    </div>
-  </nav>
 
-  <main class="page">
-    <h1>Warehouse Mode</h1>
+<nav>
+  <div class="nav-logo">SIMULACRA</div>
 
-    <p class="hero-text">
-      A simulation environment for evaluating robot coordination before deployment.
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="warehouse.html">Warehouse Mode</a>
+    <a href="contact.html">Contact</a>
+  </div>
+</nav>
+
+<main class="page">
+
+  <h1>Warehouse Mode</h1>
+
+  <p class="hero-text">
+    A simulation environment for evaluating robot coordination before deployment.
+  </p>
+
+  <p class="sub-text">
+    Compare free routing, balanced routing, and strict routing across the same warehouse layout.
+  </p>
+
+  <div class="demo-card">
+    <h2>Live Prototype</h2>
+
+    <p>
+      Explore the current Streamlit demo and test coordination policies in real time.
     </p>
 
-    <p class="sub-text">
-      Compare free routing, balanced routing, and strict routing across the same warehouse layout.
-    </p>
+    <a
+      href="https://simulacra-warehouse.streamlit.app"
+      target="_blank"
+      class="button primary"
+    >
+      Open Live Demo
+    </a>
+  </div>
 
-    <div class="demo-card">
-      <h2>Live Prototype</h2>
-      <p>
-        Explore the current Streamlit demo and test coordination policies in real time.
-      </p>
+  <section class="metrics">
 
-      <a class="button primary" href="https://simulacra-warehouse.streamlit.app" target="_blank">
-        Open Live Demo
-      </a>
+    <h2>What it measures</h2>
+
+    <div class="metric-grid">
+      <div>Movement Cost</div>
+      <div>Congestion Delay</div>
+      <div>Conflict Events</div>
+      <div>Tasks Completed</div>
     </div>
 
-    <section class="metrics">
-      <h2>What it measures</h2>
+  </section>
 
-      <div class="metric-grid">
-        <div>Movement Cost</div>
-        <div>Congestion Delay</div>
-        <div>Conflict Events</div>
-        <div>Tasks Completed</div>
-      </div>
-    </section>
+  <section class="why-section">
 
-    <section class="future-section">
-      <h2>What's Next</h2>
+    <h2>Why it matters</h2>
 
-      <div class="future-card">
-        <span>Warehouse Mode</span>
-        <span>✅ Live</span>
-      </div>
+    <p>
+      Robots rarely fail because they cannot move.
+    </p>
 
-      <div class="future-card">
-        <span>Digital Warehouse Twins</span>
-        <span>🔜 Coming Soon</span>
-      </div>
+    <p>
+      They fail because many robots must coordinate within the same environment.
+    </p>
 
-      <div class="future-card">
-        <span>Cleaning Mode</span>
-        <span>🔜 Coming Soon</span>
-      </div>
+    <p>
+      Warehouse Mode provides a controlled environment for evaluating routing strategies, congestion, and fleet behaviour before deployment.
+    </p>
 
-      <div class="future-card">
-        <span>Autonomous Fleets</span>
-        <span>🔜 Coming Soon</span>
-      </div>
-    </section>
-  </main>
+  </section>
+
+  <section class="future-section">
+
+    <h2>What's Next</h2>
+
+    <div class="future-card">
+      <span>Warehouse Mode</span>
+      <span>✅ Live</span>
+    </div>
+
+    <div class="future-card">
+      <span>Digital Warehouse Twins</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+    <div class="future-card">
+      <span>Cleaning Mode</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+    <div class="future-card">
+      <span>Autonomous Fleets</span>
+      <span>🔜 Coming Soon</span>
+    </div>
+
+  </section>
+
+</main>
+
 </body>
 </html>
