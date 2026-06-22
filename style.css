@@ -193,13 +193,13 @@ h1 {
 ========================= */
 @media (max-width: 900px) {
   nav {
-    padding: 24px;
+    padding: 24px 36px;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
   .nav-logo-image {
-    height: 44px;
+    height: 70px;
   }
   .nav-links a {
     margin-left: 18px;
