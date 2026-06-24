@@ -228,4 +228,52 @@ h1 {
     gap: 8px;
     text-align: center;
   }
+  /* =========================
+   CONTACT CTA
+========================= */
+
+.contact-cta {
+  max-width: 850px;
+  margin: 120px auto 0;
+  text-align: center;
+}
+
+.contact-cta h2 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.contact-cta p {
+  color: #b8b8b8;
+  max-width: 700px;
+  margin: 0 auto 30px;
+  line-height: 1.8;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  margin-top: 120px;
+  padding: 40px 20px;
+  border-top: 1px solid rgba(255,255,255,0.08);
+  text-align: center;
+}
+
+footer p {
+  color: #7f7f7f;
+  margin-bottom: 15px;
+}
+
+.footer-links a {
+  color: #a0a0a0;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 14px;
+}
+
+.footer-links a:hover {
+  opacity: 0.7;
+}
 }
